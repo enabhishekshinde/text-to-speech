@@ -1,0 +1,48 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cantainer{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(to right top, #307be8, #0085c1, #007f85, #43725b, #5f6354);
+ color: #fff;
+ flex-direction: column;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.cantainer span{
+
+    color:#0085c1 ;
+    margin-left: 10px;
+}
+.cantainer textarea{
+
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.box{
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+}
+.cantainer .box select{
+    
+    height: 40px;
+    width: 350px;
+    margin: 20px;
+   
+}
+.cantainer .box button{
+    margin: 20px;
+    height: 40px;
+} 
